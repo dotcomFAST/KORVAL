@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Korval — Infrastruktura dla nowoczesnych pieniędzy</title>
+  <meta name="description" content="Przesyłaj, przechowuj i rozliczaj pieniądze z prędkością internetu — przez jedno API. Koncept, projekt portfolio.">
+  <meta name="theme-color" content="#F2F0EB">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Mono&display=swap">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#o-nas">Przejdź do treści</a>
+
+  <!-- 01 HERO -->
+  <header class="hero" id="top">
+    <div class="container hero-inner">
+      <div class="topbar">
+        <a class="logo" href="#top">KORVAL</a>
+        <nav class="nav" aria-label="Główna nawigacja">
+          <a class="u-link" href="#produkty">Produkty</a>
+          <a class="u-link" href="#api">Deweloperzy</a>
+          <a class="u-link" href="#cennik">Cennik</a>
+          <a class="u-link" href="#kontakt">Kontakt</a>
+        </nav>
+        <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" data-menu-open>
+          <span class="dot" aria-hidden="true"></span>Menu
+        </button>
+      </div>
+
+      <div class="grid hero-grid">
+        <p class="hero-tag">(fintech 2.0)</p>
+        <p class="hero-sub">Infrastruktura dla<br>nowoczesnych pieniędzy</p>
+        <p class="hero-lead" data-reveal style="--d:350ms">Przesyłaj, przechowuj i rozliczaj pieniądze z prędkością internetu — przez jedno API</p>
+        <span class="hero-square" aria-hidden="true"></span>
+        <a class="hero-scroll" href="#o-nas">Przewiń <span class="arr-down">↓</span></a>
+      </div>
+
+      <h1 class="h1">
+        <span data-reveal style="--d:0ms">Twój</span>
+        <span class="h1-shift" data-reveal style="--d:120ms">kapitał</span>
+        <span data-reveal style="--d:240ms">w ruchu</span>
+      </h1>
+    </div>
+  </header>
+
+  <main>
+    <!-- 02 O NAS + LICZBY -->
+    <section class="sec" id="o-nas" aria-labelledby="o-nas-label">
+      <div class="container">
+        <div class="grid rule">
+          <p class="label" id="o-nas-label">O nas</p>
+          <p class="manifest-text" data-reveal>Budujemy infrastrukturę finansową, na której firmy przesyłają pieniądze.</p>
+          <p class="manifest-red">Bez granic<br>Bez opóźnień<br>Bez pośredników</p>
+          <div class="nums">
+            <div class="num" data-reveal><p class="num-v">0,4 s</p><p class="num-d">średni czas rozliczenia transakcji</p></div>
+            <div class="num" data-reveal style="--d:100ms"><p class="num-v">140+</p><p class="num-d">obsługiwanych walut</p></div>
+            <div class="num" data-reveal style="--d:200ms"><p class="num-v">2,3 mld</p><p class="num-d">złotych miesięcznego wolumenu</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 PRODUKTY -->
+    <section class="sec" id="produkty" aria-labelledby="produkty-h">
+      <div class="container">
+        <div class="grid rule">
+          <p class="label">Co robimy</p>
+          <h2 class="h2" id="produkty-h" data-reveal>Jedna platforma<br>Trzy narzędzia</h2>
+          <div class="cards">
+            <article class="card" data-reveal>
+              <span class="idx">01</span>
+              <h3>Płatności</h3>
+              <p>Przyjmuj płatności w 140 walutach przez jedno API.</p>
+            </article>
+            <article class="card card--accent" data-reveal style="--d:100ms">
+              <span class="idx">02</span>
+              <h3>Konta</h3>
+              <p>Wielowalutowe konta firmowe otwierane w 10 minut.</p>
+            </article>
+            <article class="card" data-reveal style="--d:200ms">
+              <span class="idx">03</span>
+              <h3>Rozliczenia</h3>
+              <p>Automatyczne księgowanie i raporty w czasie rzeczywistym.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 PROCES -->
+    <section class="sec" id="proces" aria-labelledby="proces-h">
+      <div class="container">
+        <div class="grid rule">
+          <p class="label">Proces</p>
+          <h2 class="h2" id="proces-h" data-reveal>Integracja<br>w trzech krokach</h2>
+          <ol class="steps">
+            <li class="step" data-reveal><h3>Połącz</h3><p>Podłącz swój system przez API lub gotowe wtyczki.</p></li>
+            <li class="step" data-reveal><h3>Skonfiguruj</h3><p>Ustaw waluty, limity i reguły rozliczeń w panelu.</p></li>
+            <li class="step" data-reveal><h3>Skaluj</h3><p>Rośnij bez zmiany infrastruktury — od pierwszej transakcji do miliona.</p></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- 06 API -->
+    <section class="sec sec--dark" id="api" aria-labelledby="api-h">
+      <div class="container">
+        <div class="grid rule">
+          <p class="label">API</p>
+          <h2 class="h2" id="api-h" data-reveal>Stworzone przez programistów. <span class="accent">Dla programistów.</span></h2>
+          <pre class="api-code" id="api-code" data-reveal><code><span class="tok">POST</span> /v1/transfers
+
+{
+  "amount": 125000,
+  "currency": "PLN",
+  "destination": "acc_8Fk2Lq",
+  "settle": "instant"
+}
+
+<span class="tok">→ 200</span>  settled in 0.38s</code></pre>
+          <div class="api-text" data-reveal style="--d:120ms">
+            <p>REST API, SDK dla sześciu języków i dokumentacja, którą naprawdę da się przeczytać</p>
+            <a class="link" href="#" data-placeholder>Zobacz dokumentację <span class="arr">→</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 07 BEZPIECZEŃSTWO -->
+    <section class="sec" id="bezpieczenstwo" aria-labelledby="bezp-h">
+      <div class="container">
+        <div class="grid rule">
+          <p class="label"><span class="d-only">Bezpieczeństwo<br>bez kompromisów</span><span class="m-only">Zaufanie</span></p>
+          <h2 class="h2 m-only" id="bezp-h">Bezpieczeństwo bez kompromisów</h2>
+          <ul class="sec-list">
+            <li data-reveal><strong>Licencja KNF</strong><span>Nadzór finansowy</span></li>
+            <li data-reveal><strong>Zgodność z PSD2 i RODO</strong><span>Regulacje UE</span></li>
+            <li data-reveal><strong>Szyfrowanie end-to-end</strong><span>AES-256</span></li>
+            <li data-reveal><strong>Audyt SOC 2 Type II</strong><span>Raport roczny</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 07b CENNIK -->
+    <section class="sec" id="cennik" aria-labelledby="cennik-h">
+      <div class="container">
+        <div class="grid rule">
+          <p class="label">Cennik</p>
+          <h2 class="h2" id="cennik-h" data-reveal>Prosty cennik<br>Bez ukrytych opłat</h2>
+          <div class="plans">
+            <article class="plan" data-reveal>
+              <p class="plan-name">01 — <br class="m-br">Start</p>
+              <p class="price">0 zł</p>
+              <p class="period">miesięcznie</p>
+              <p class="desc">Dla startupów i pierwszych transakcji</p>
+              <ul class="features">
+                <li>Do 50 000 zł obrotu miesięcznie</li>
+                <li>Prowizja 0,9% od transakcji</li>
+                <li>1 konto wielowalutowe</li>
+                <li>Wsparcie e-mail</li>
+              </ul>
+              <a class="link" href="#kontakt" data-demo data-plan="Start">Zacznij za darmo <span class="arr">→</span></a>
+            </article>
+            <article class="plan plan--accent" data-reveal style="--d:100ms">
+              <p class="plan-name">02 — <br class="m-br">Firma</p>
+              <p class="price">490 zł</p>
+              <p class="period">miesięcznie, netto</p>
+              <p class="desc">Dla rosnących firm, które płacą za granicę</p>
+              <ul class="features">
+                <li>Do 2 mln zł obrotu miesięcznie</li>
+                <li>Prowizja 0,4% od transakcji</li>
+                <li>Do 10 kont wielowalutowych</li>
+                <li>Pełny dostęp do API i webhooków</li>
+              </ul>
+              <a class="link" href="#kontakt" data-demo data-plan="Firma">Wybierz plan <span class="arr">→</span></a>
+            </article>
+            <article class="plan" data-reveal style="--d:200ms">
+              <p class="plan-name">03 — <br class="m-br">Enterprise</p>
+              <p class="price">Wycena</p>
+              <p class="period">indywidualna</p>
+              <p class="desc">Dla korporacji i instytucji finansowych</p>
+              <ul class="features">
+                <li>Nielimitowany obrót</li>
+                <li>Prowizja ustalana indywidualnie</li>
+                <li>Dedykowany opiekun</li>
+                <li>SLA 99,99% w umowie</li>
+              </ul>
+              <a class="link" href="#kontakt" data-demo data-plan="Enterprise">Porozmawiaj z nami <span class="arr">→</span></a>
+            </article>
+          </div>
+          <p class="plans-note">Ceny netto. Bez opłat za wdrożenie i bez umowy na czas określony</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 08 OPINIA -->
+    <section class="sec" id="opinia" aria-label="Opinia klienta">
+      <div class="container">
+        <figure class="grid rule quote">
+          <p class="label">Opinia</p>
+          <span class="quote-mark" aria-hidden="true">„</span>
+          <blockquote data-reveal>Przenieśliśmy całe rozliczenia zagraniczne do Korval w dwa tygodnie. Dziś nie wyobrażamy sobie powrotu”</blockquote>
+          <figcaption><strong>Anna Wiśniewska</strong>CFO, Nordline Logistics</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 09 CTA -->
+    <section class="sec sec--red" id="kontakt" aria-labelledby="cta-h">
+      <div class="container">
+        <div class="grid rule">
+          <p class="cta-text">Porozmawiaj z naszym zespołem i zobacz Korval w działaniu.</p>
+          <h2 class="cta-title" id="cta-h">
+            <span data-reveal>Gotowy</span>
+            <span class="cta-shift" data-reveal style="--d:120ms">na kolejny</span>
+            <span data-reveal style="--d:240ms">ruch?</span>
+          </h2>
+          <button class="cta-row" type="button" data-demo>
+            <span>Umów demo</span><span class="arr" aria-hidden="true">→</span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 10 FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="grid">
+        <div class="f-col f-col--1"><p class="f-h">Platforma</p><a class="u-link" href="#produkty">Produkty</a><a class="u-link" href="#api">Deweloperzy</a><a class="u-link" href="#cennik">Cennik</a></div>
+        <div class="f-col f-col--2"><p class="f-h">Firma</p><a class="u-link" href="#o-nas">O nas</a><a class="u-link" href="#" data-placeholder>Kariera</a><a class="u-link" href="#kontakt">Kontakt</a></div>
+        <div class="f-col f-col--3"><p class="f-h">Social</p><a class="u-link" href="#" data-placeholder>X</a><a class="u-link" href="#" data-placeholder>Discord</a><a class="u-link" href="#" data-placeholder>GitHub</a></div>
+        <div class="f-col f-col--4"><p class="f-h">Kontakt</p><a class="u-link" href="mailto:hello@korval.io">hello@korval.io</a><span>Warszawa, Polska</span></div>
+        <p class="giant" aria-hidden="true" data-reveal>KORVAL</p>
+        <div class="legal">
+          <p>© 2026 Korval sp. z o.o. Wszelkie prawa zastrzeżone.</p>
+          <p><a class="u-link" href="#" data-placeholder>Polityka prywatności</a> · <a class="u-link" href="#" data-placeholder>Regulamin</a></p>
+          <p>Koncept — projekt portfolio</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MENU (pełny ekran) -->
+  <div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Menu">
+    <div class="container menu-inner">
+      <div class="topbar topbar--menu">
+        <a class="logo" href="#top">KORVAL</a>
+        <button class="menu-btn" type="button" data-menu-close><span class="dot" aria-hidden="true"></span>Zamknij</button>
+      </div>
+      <ol class="menu-list">
+        <li style="--i:0"><a href="#o-nas"><span class="m-idx">01</span><span class="m-txt">O nas</span></a></li>
+        <li style="--i:1"><a href="#produkty"><span class="m-idx">02</span><span class="m-txt">Produkty</span></a></li>
+        <li style="--i:2"><a href="#proces"><span class="m-idx">03</span><span class="m-txt">Proces</span></a></li>
+        <li style="--i:3"><a href="#api"><span class="m-idx">04</span><span class="m-txt">Deweloperzy</span></a></li>
+        <li style="--i:4"><a href="#cennik"><span class="m-idx">05</span><span class="m-txt">Cennik</span></a></li>
+        <li style="--i:5"><a href="#kontakt"><span class="m-idx">06</span><span class="m-txt">Kontakt</span></a></li>
+      </ol>
+      <div class="menu-foot">
+        <a class="u-link" href="mailto:hello@korval.io">hello@korval.io</a>
+        <button class="link link--light" type="button" data-demo>Umów demo <span class="arr">→</span></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: UMÓW DEMO -->
+  <dialog class="modal" id="demo" aria-labelledby="demo-h">
+    <div class="modal-inner">
+      <div class="modal-top">
+        <p class="label">Umów demo</p>
+        <button class="modal-close" type="button" data-demo-close aria-label="Zamknij">Zamknij</button>
+      </div>
+
+      <div class="modal-form">
+        <h2 class="modal-h" id="demo-h">Pokażemy Korval w&nbsp;30&nbsp;minut</h2>
+        <form novalidate>
+          <div class="field" data-field>
+            <label for="f-name">Imię i nazwisko</label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required>
+            <p class="err" aria-live="polite"></p>
+          </div>
+          <div class="field" data-field>
+            <label for="f-email">E-mail służbowy</label>
+            <input id="f-email" name="email" type="email" autocomplete="email" required>
+            <p class="err" aria-live="polite"></p>
+          </div>
+          <div class="field" data-field>
+            <label for="f-company">Firma</label>
+            <input id="f-company" name="company" type="text" autocomplete="organization" required>
+            <p class="err" aria-live="polite"></p>
+          </div>
+          <div class="field" data-field>
+            <label for="f-plan">Plan</label>
+            <select id="f-plan" name="plan">
+              <option value="Nie wiem jeszcze">Nie wiem jeszcze</option>
+              <option value="Start">Start — 0 zł</option>
+              <option value="Firma">Firma — 490 zł / mies.</option>
+              <option value="Enterprise">Enterprise — wycena indywidualna</option>
+            </select>
+            <p class="err" aria-live="polite"></p>
+          </div>
+          <button class="submit" type="submit"><span>Wyślij zgłoszenie</span><span class="arr" aria-hidden="true">→</span></button>
+          <p class="form-note">Odpowiemy w ciągu jednego dnia roboczego.</p>
+        </form>
+      </div>
+
+      <div class="modal-sent" aria-live="polite">
+        <h2 class="modal-h">Dziękujemy.</h2>
+        <p>Zgłoszenie dotarło. Odezwiemy się w ciągu jednego dnia roboczego.</p>
+        <button class="link" type="button" data-demo-close>Wróć na stronę <span class="arr">→</span></button>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
